@@ -100,12 +100,10 @@ Performance on TGIF-QA dataset:
 | :---- | :-----: | :-------: | :------: | :------: |
 | PKOL  |  3.67   |   61.8    |   82.8   |   74.6   |
 
-## Reference and Citation
-
-### Reference
+## Reference
 [1] Le, Thao Minh, et al. "Hierarchical conditional relation networks for video question answering." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
 
-### Citation
+## Citation
 ```
 @inproceedings{PKOL,
   author    = {Pengpeng Zeng and
