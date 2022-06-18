@@ -121,4 +121,4 @@ Performance on TGIF-QA dataset:
 }
 ```
 ## Acknowledgements
-Our code implementation is also based on this [repo](https://github.com/thaolmk54/hcrn-videoqa).
+Our code implementation is based on [repo](https://github.com/thaolmk54/hcrn-videoqa).
