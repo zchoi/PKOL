@@ -46,11 +46,11 @@ pip install -r requirements.txt
 ```
 ## Data Preparation
 
-- #### Text Features
+- ### Text Features
 
   Download pre-extracted text features from [here](), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
 
-- #### Visual Features
+- ### Visual Features
 
   Download pre-extracted visual features (i.e., appearance, motion, object) from [here](), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ## Experiments
 
-- #####  For MSVD-QA and MSRVTT-QA：
+- ###  For MSVD-QA and MSRVTT-QA：
 
 <u>Training</u>：
 
@@ -71,7 +71,7 @@ python train_iterative.py --cfg configs/msvd_qa.yml
 python validate_iterative.py --cfg configs/msvd_qa.yml
 ```
 
-- #####  For TGIF-QA：
+- ###  For TGIF-QA：
 
   Choose a suitable config file in `configs/{task}.yml` for one of 4 tasks: `action, transition, count, frameqa` to train/val the model. For example, to train with action task, run the following command:
 
