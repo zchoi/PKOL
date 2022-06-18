@@ -44,7 +44,6 @@ conda create -n vqa python=3.7
 conda activate vqa
 pip install -r requirements.txt
 ```
-
 ## Data Preparation
 
 - #### Text Features
@@ -87,7 +86,6 @@ python train_iterative.py --cfg configs/tgif_qa_action.yml
 ```
 python validate_iterative.py --cfg configs/tgif_qa_action.yml
 ```
-
 ## Results
 
 Performance on MSVD-QA and MSRVTT-QA datasets:
