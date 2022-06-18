@@ -1,6 +1,6 @@
 ## Video Question Answering with Prior Knowledge and Object-sensitive Learning (PKOL)
 
-[![](https://img.shields.io/badge/python-3.7.11-orange.svg)](https://www.python.org/)[![](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/zchoi/S2-Transformer/blob/main/LICENSE)[![](https://img.shields.io/badge/Pytorch-1.7.1-red.svg)](https://pytorch.org/)
+[![](https://img.shields.io/badge/python-3.7.11-orange.svg)](https://www.python.org/)  [![](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/zchoi/S2-Transformer/blob/main/LICENSE)  [![](https://img.shields.io/badge/Pytorch-1.7.1-red.svg)](https://pytorch.org/)
 
 This is the official code implementation for the paper：
 
