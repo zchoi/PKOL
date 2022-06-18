@@ -4,12 +4,11 @@
 
 This is the official code implementation for the paper：
 
-**[Video Question Answering with Prior Knowledge and Object-sensitive Learning][1]** 
+[Video Question Answering with Prior Knowledge and Object-sensitive Learning]()
 
 <p align="center">
   <img src="framework.jpg" alt="Relationship-Sensitive Transformer" width="850"/>
 </p>
-
 
 
 ## Table of Contents
@@ -58,8 +57,6 @@ pip install -r requirements.txt
 
 > **Note:** The object features are huge, (especially ~700GB for TGIF-QA), please be cautious of disk space when downloading.
 
-
-
 ## Experiments
 
 - #####  For MSVD-QA and MSRVTT-QA：
@@ -91,7 +88,6 @@ python train_iterative.py --cfg configs/tgif_qa_action.yml
 python validate_iterative.py --cfg configs/tgif_qa_action.yml
 ```
 
-
 ## Results
 
 Performance on MSVD-QA and MSRVTT-QA datasets:
@@ -105,8 +101,6 @@ Performance on TGIF-QA dataset:
 | Model | Count ↓ | FrameQA ↑ | Trans. ↑ | Action ↑ |
 | :---- | :-----: | :-------: | :------: | :------: |
 | PKOL  |  3.67   |   61.8    |   82.8   |   74.6   |
-
-
 
 ## Reference and Citation
 
