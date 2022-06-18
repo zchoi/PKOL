@@ -70,7 +70,6 @@ python train_iterative.py --cfg configs/msvd_qa.yml
 ```
 python validate_iterative.py --cfg configs/msvd_qa.yml
 ```
-
 - ###  For TGIF-QA：
 
   Choose a suitable config file in `configs/{task}.yml` for one of 4 tasks: `action, transition, count, frameqa` to train/val the model. For example, to train with action task, run the following command:
