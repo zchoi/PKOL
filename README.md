@@ -7,7 +7,7 @@ This is the official code implementation for the paper：
 **[Video Question Answering with Prior Knowledge and Object-sensitive Learning][1]** 
 
 <p align="center">
-  <img src="C:\Users\pc\Desktop\1655541642596.jpg" alt="Relationship-Sensitive Transformer" width="850"/>
+  <img src="framework.jpg" alt="Relationship-Sensitive Transformer" width="850"/>
 </p>
 
 
