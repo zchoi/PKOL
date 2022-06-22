@@ -47,8 +47,11 @@ pip install -r requirements.txt
   Download pre-extracted text features from [here](), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
 
 - ### Visual Features
+  - For appearance and motion features, we used from this [repo](https://github.com/thaolmk54/hcrn-videoqa) [1].
 
-  Download pre-extracted visual features (i.e., appearance, motion, object) from [here](), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
+  - For object features, we used the Faster R-CNN [2] pre-trained with Visual Genome [3].
+
+  Download pre-extracted visual features from [here](), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
 
 > **Note:** The object features are huge, (especially ~700GB for TGIF-QA), please be cautious of disk space when downloading.
 
@@ -97,6 +100,10 @@ Performance on TGIF-QA dataset:
 
 ## Reference
 [1] Le, Thao Minh, et al. "Hierarchical conditional relation networks for video question answering." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020.
+
+[2] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems 28 (2015).
+
+[3] Krishna, Ranjay, et al. "Visual genome: Connecting language and vision using crowdsourced dense image annotations." International journal of computer vision 123.1 (2017): 32-73.
 
 ## Citation
 ```
