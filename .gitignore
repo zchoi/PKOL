@@ -1,0 +1,5 @@
+*.npy
+*.pyc
+/results
+/release_checkpoint
+/data
