@@ -1,0 +1,34 @@
+gpu_id: 0
+multi_gpus: False
+num_workers: 8
+seed: 666
+exp_name: 'expTGIF-QAAction'
+
+train:
+  lr: 0.0001
+  batch_size: 64
+  restore: False
+  max_epochs: 30
+  word_dim: 300
+  module_dim: 512
+  glove: True
+  k_max_frame_level: 16
+  k_max_clip_level: 8
+  spl_resolution: 1
+  caption_dim : 300
+  joint : True
+  patch_number : 25000  # max ：25000
+  topk : 3
+val:
+  flag: True
+  topk : 5
+
+test:
+  test_num: 0
+  write_preds: False
+
+dataset:
+  name: 'tgif-qa'
+  question_type: 'action'
+  data_dir: 'data/tgif-qa/action'
+  save_dir: 'results/'

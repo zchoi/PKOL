@@ -1,0 +1,37 @@
+gpu_id: 0
+multi_gpus: False
+num_workers: 12
+seed: 666
+exp_name: 'expMSVD-QA'
+
+train:
+  lr: 0.0001
+  batch_size: 128
+  restore: False
+  max_epochs: 25
+  word_dim: 300
+  module_dim: 512
+  glove: True
+  k_max_frame_level: 16
+  k_max_clip_level: 8
+  spl_resolution: 1
+  caption_dim : 768
+  joint : True
+  patch_number : 5000  # max ：25000
+  topk : 3
+
+val:
+  flag: True
+  topk : 3
+
+test:
+  test_num: 0
+  write_preds: False
+  visualization: False
+
+dataset:
+  name: 'msvd-qa'
+  question_type: 'none'
+  data_dir: 'data/msvd-qa/'
+  save_dir: 'results/'
+  max_cap_num: 18 # max:18
