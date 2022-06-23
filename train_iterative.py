@@ -200,7 +200,7 @@ def train(cfg):
     logging.info("Start training........")
     for epoch in range(start_epoch, cfg.train.max_epochs):
         logging.info('>>>>>> epoch {} <<<<<<'.format(epoch))
-        if epoch < 0:
+        if epoch < 5:
             retrieve_model.train()
             count = 0
             batch_mse_sum = 0.0
