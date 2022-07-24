@@ -508,7 +508,7 @@ def main():
 
         cfg.dataset.appearance_feat = os.path.join(cfg.dataset.data_dir, cfg.dataset.appearance_feat.format(cfg.dataset.name, cfg.dataset.question_type))
         cfg.dataset.motion_feat = os.path.join(cfg.dataset.data_dir, cfg.dataset.motion_feat.format(cfg.dataset.name, cfg.dataset.question_type))
-        cfg.dataset.object_feat = '/mnt/hdd2/zhanghaonan/object_features.h5'
+        cfg.dataset.object_feat = 'data/tgif-qa/tgif-qa_object_feat.h5'
     else:
         cfg.dataset.question_type = 'none'
         cfg.dataset.appearance_feat = '{}_appearance_feat.h5'
