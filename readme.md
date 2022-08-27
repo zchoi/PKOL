@@ -105,7 +105,7 @@ Performance on TGIF-QA dataset:
 
 [3] Krishna, Ranjay, et al. "Visual genome: Connecting language and vision using crowdsourced dense image annotations." International journal of computer vision 123.1 (2017): 32-73.
 
-## Citation
+<!-- ## Citation
 ```
 @inproceedings{PKOL,
   author    = {Pengpeng Zeng and
@@ -119,6 +119,6 @@ Performance on TGIF-QA dataset:
   % pages     = {????--????}
   year      = {2022}
 }
-```
+``` -->
 ## Acknowledgements
 Our code implementation is based on this [repo](https://github.com/thaolmk54/hcrn-videoqa).
