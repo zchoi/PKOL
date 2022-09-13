@@ -4,7 +4,7 @@
 
 This is the official code implementation for the paper：
 
-[Video Question Answering with Prior Knowledge and Object-sensitive Learning]()
+[Video Question Answering with Prior Knowledge and Object-sensitive Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9882977)
 
 <p align="center">
   <img src="framework.jpg" alt="Relationship-Sensitive Transformer" width="850"/>
