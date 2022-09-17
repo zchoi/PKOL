@@ -116,7 +116,7 @@ Performance on TGIF-QA dataset:
                },
   title     = {Video Question Answering with Prior Knowledge and Object-sensitive Learning},
   booktitle = {TIP},
-  % pages     = {????--????}
+  pages     = {5936--5948}
   year      = {2022}
 }
 ```
