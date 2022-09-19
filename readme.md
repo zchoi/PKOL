@@ -120,7 +120,6 @@ Performance on TGIF-QA dataset:
   pages   = {5936--5948}
   year    = {2022}
 }
-
 ```
 ## Acknowledgements
 Our code implementation is based on this [repo](https://github.com/thaolmk54/hcrn-videoqa).
