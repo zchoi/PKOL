@@ -107,18 +107,20 @@ Performance on TGIF-QA dataset:
 
 ## Citation
 ```
-@inproceedings{PKOL,
-  author    = {Pengpeng Zeng and
-               Haonan Zhang and
-               Lianli Gao and
-               Jingkuan Song and 
-               Heng Tao Shen
-               },
-  title     = {Video Question Answering with Prior Knowledge and Object-sensitive Learning},
-  booktitle = {TIP},
-  pages     = {5936--5948}
-  year      = {2022}
+@article{PKOL,
+  title   = {Video Question Answering with Prior Knowledge and Object-sensitive Learning},
+  author  = {Pengpeng Zeng and 
+             Haonan Zhang and 
+             Lianli Gao and 
+             Jingkuan Song and 
+             Heng Tao Shen
+             },
+  journal = {IEEE Transactions on Image Processing},
+  doi     = {10.1109/TIP.2022.3205212},
+  pages   = {5936--5948}
+  year    = {2022}
 }
+
 ```
 ## Acknowledgements
 Our code implementation is based on this [repo](https://github.com/thaolmk54/hcrn-videoqa).
