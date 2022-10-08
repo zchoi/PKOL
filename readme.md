@@ -15,9 +15,9 @@ This is the official code implementation for the paper：
 
 - [Setups](#setups)
 - [Data Preparation](#data-preparation)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Reference and Citation](#reference-and-citation)
+- [Training](#experiments)
+- [Evaluation](#experiments)
+- [Reference and Citation](#reference)
 - [Acknowledgements](#acknowledgements)
 
 ## Setups
