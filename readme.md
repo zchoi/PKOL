@@ -13,7 +13,7 @@ This is the official code implementation for the paper：
 
 ## Table of Contents
 
-- [Setups](#Setups)
+- [Setups](#setups)
 - [Data Preparation](#data-preparation)
 - [Training](#training)
 - [Evaluation](#evaluation)
