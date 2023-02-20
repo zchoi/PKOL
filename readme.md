@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
   - For object features, we used the Faster R-CNN [2] pre-trained with Visual Genome [3].
 
-  Download pre-extracted visual features from [here](), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
+  Download pre-extracted visual features from [here](https://pan.baidu.com/s/16fZOtIe6rtR4SW-G1Cc2zA?pwd=zca5) (code: zca5), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
 
 > **Note:** The object features are huge, (especially ~700GB for TGIF-QA), please be cautious of disk space when downloading.
 
