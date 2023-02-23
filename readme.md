@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 - ### Text Features
 
-  Download pre-extracted text features from [here](1), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
+  Download pre-extracted text features from [here](https://pan.baidu.com/s/16fZOtIe6rtR4SW-G1Cc2zA?pwd=zca5) (code: zca5), and place it into `data/{dataset}-qa/` for MSVD-QA, MSRVTT-QA and `data/tgif-qa/{question_type}/` for TGIF-QA, respectively.
 
 - ### Visual Features
   - For appearance and motion features, we used from this [repo](https://github.com/thaolmk54/hcrn-videoqa) [1].
