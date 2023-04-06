@@ -1,10 +1,13 @@
 ## Video Question Answering with Prior Knowledge and Object-sensitive Learning (PKOL)
 
-[![](https://img.shields.io/badge/python-3.7.11-orange.svg?style=for-the-badge)](https://www.python.org/)  [![](https://img.shields.io/apm/l/vim-mode.svg?style=for-the-badge)](https://github.com/zchoi/S2-Transformer/blob/main/LICENSE)  [![](https://img.shields.io/badge/Pytorch-1.7.0-orange?style=for-the-badge)](https://pytorch.org/)
+[![](https://img.shields.io/badge/python-3.7.11-orange.svg?style=for-the-badge)](https://www.python.org/)  [![](https://img.shields.io/apm/l/vim-mode.svg?style=for-the-badge)](https://github.com/zchoi/S2-Transformer/blob/main/LICENSE)  [![](https://img.shields.io/badge/Pytorch-1.7.0-orange?style=for-the-badge)]
+(https://pytorch.org/)
 
 This is the official code implementation for the paper：
 
-[Video Question Answering with Prior Knowledge and Object-sensitive Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9882977) ```IEEE Trans. On Image Processing 2022```
+[Video Question Answering with Prior Knowledge and Object-sensitive Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9882977) 
+
+```IEEE Trans. On Image Processing 2022```
 
 <p align="center">
   <img src="framework.jpg" alt="Relationship-Sensitive Transformer" width="850"/>
