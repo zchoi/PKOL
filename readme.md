@@ -14,7 +14,8 @@ Video Question Answering with Prior Knowledge and Object-sensitive Learning
 </div>
 
 <p align="center">
-  <img src="framework.jpg" alt="Relationship-Sensitive Transformer" width="850"/>
+  <img src="framework.jpg" alt="Relationship-Sensitive Transformer" width="850"/><br>
+  <span><b>Figure 1. Overview of the proposed PKOL architecture for video question answering. </b></span>
 </p>
 
 
